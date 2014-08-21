@@ -1,0 +1,51 @@
+﻿a {
+  text-decoration: none;
+  font-family: monospace, consolas;
+}
+
+body {
+  margin: 0;
+}
+
+
+/* source: http://css-tricks.com/examples/Blockquotes/ */
+blockquote.style2{
+  font: 14px/22px normal helvetica, sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  border-left: 3px solid #ccc;
+} 
+
+p {
+  font-family: sans-serif, helvetica, arial;
+  margin: 25px 200px 0 200px;
+  
+}
+
+ol li {
+  margin: 0 200px;
+}
+
+/* IDs */
+#Header {
+  font-family: monospace, consolas, courier;
+  font-weight: 600;
+  font-size: x-large; /* should be same as an h1 header */
+  margin: 20px 0 10px 0;
+  border: 1px black solid;
+  border-width: 1px 0;
+  background-color:#00EEFF;
+  color: blue;
+}
+
+#Menu {
+  position:absolute;
+  top:80px;
+  left:20px;
+  width:120px;
+  padding:0.5em;
+  background-color:#00E9FF;
+  border:1px dashed #0099FF;
+  margin-top: 12.5px;
+}
