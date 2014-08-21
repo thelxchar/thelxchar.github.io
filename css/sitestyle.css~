@@ -1,12 +1,14 @@
 ﻿a {
   text-decoration: none;
-  font-family: monospace, consolas;
 }
 
 body {
   margin: 0;
 }
 
+blockquote {
+  font-family: monospace, consolas courier;
+}
 
 /* source: http://css-tricks.com/examples/Blockquotes/ */
 blockquote.style2{
@@ -27,6 +29,7 @@ ol li {
   margin: 0 200px;
 }
 
+
 /* IDs */
 #Header {
   font-family: monospace, consolas, courier;
@@ -35,8 +38,8 @@ ol li {
   margin: 20px 0 10px 0;
   border: 1px black solid;
   border-width: 1px 0;
-  background-color:#00EEFF;
-  color: #0055FF;
+  background-color: #D0E0F0;
+  color: white;
 }
 
 #Menu {
@@ -45,7 +48,11 @@ ol li {
   left:20px;
   width:120px;
   padding:0.5em;
-  background-color:#00E9FF;
-  border:1px dashed #0099FF;
-  margin-top: 12.5px;
+  background-color: #D0E0F0;
+  border:1px dashed black;
+  margin-top: 35px;
+}
+
+#Menu a {
+  color: white;
 }
